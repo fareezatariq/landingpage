@@ -52,7 +52,7 @@
     color: white;
     position: absolute;
     top: 45%;
-    left: 20%;
+    left: 15%;
     transform: translate(-30%,-50);
     text-align: left;
 }
@@ -74,4 +74,9 @@
     background: transparent;
     position: relative;
     cursor: pointer; 
+}
+.hero-btn:hover{
+    border: 1px solid black;
+    background: blue;
+    transition: 1s;
 }
