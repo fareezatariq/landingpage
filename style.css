@@ -81,6 +81,8 @@
     background: blue;
     transition: 1s;
 }
+
+/*responsive layout*/
 @media(max-width: 700px){
     .text-box h1{
         font-size: 20px;
