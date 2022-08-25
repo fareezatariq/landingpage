@@ -35,9 +35,14 @@
 /*underline the nav components */
 .nav-links ul li::after{ 
     content: '';
-    width: 100%;
+    width: 0%;
     height: 1px;
     background: rgb(95, 95, 255);
     display: block;
     margin: auto;
+    transition: 0.5s;
+}
+/*made the underline responsive*/
+.nav-links ul li:hover::after{
+    width: 100%;
 }
