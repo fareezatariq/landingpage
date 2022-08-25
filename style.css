@@ -15,7 +15,7 @@
 .nav-links{
     display: flex;
     justify-content: right;
-    align-items: center;
+    align-items:center;
     padding: 2% 6%;
     flex: 1;
     text-align: right;
@@ -25,6 +25,7 @@
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+
 }
 /*Designing the links in NAV */
 .nav-links ul li a{
@@ -48,7 +49,7 @@
 }
 /*editing hero text*/
 .text-box{
-    width: 90%;
+    width: 80%;
     color: white;
     position: absolute;
     top: 45%;
@@ -79,4 +80,23 @@
     border: 1px solid black;
     background: blue;
     transition: 1s;
+}
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: rgb(8, 8, 66);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        justify-content: space-between;
+        text-align: left;
+        z-index: 2;
+    }    
 }
