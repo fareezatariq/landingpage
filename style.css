@@ -12,6 +12,16 @@
     background-size: cover;
     position: relative;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+.container img{
+    width: 250px;
+    height: 400px;
+
+}
 .nav-links{
     display: flex;
     justify-content: right;
@@ -57,6 +67,7 @@
     transform: translate(-30%,-50);
     text-align: left;
 }
+
 .text-box h1{
     font-size: 62px;
 }
@@ -66,9 +77,9 @@
     color: aliceblue;
 }
 /*button arrangement*/
-.hero-btn{
+.text-box .hero-btn{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     border: 1px solid white;
     padding: 12px 34px;
     font-size: 13px;
@@ -76,15 +87,14 @@
     position: relative;
     cursor: pointer; 
 }
-.hero-btn:hover{
+.text-box .hero-btn:hover{
     border: 1px solid black;
     background: blue;
     transition: 1s;
 }
-
 /*responsive layout*/
 @media(max-width: 700px){
-    .text-box h1{
+    .container .text-box h1{
         font-size: 20px;
     }
     .nav-links ul li{
