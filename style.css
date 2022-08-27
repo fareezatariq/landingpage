@@ -97,49 +97,6 @@ header img{
 h1,h2,p,h3, h4{
     color:rgb(252, 232, 219);
 }
-.about{
-    background-color:rgb(73, 50, 94); 
-    min-height: 92vh;
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-}
-.about-col{
-    flex-basis: 31%;
-background:rgb(63, 39, 85);
-border-radius: 10px;
-padding: 20px 12px;
-margin: 0 20%;
-box-sizing: border-box;
-transition: 0.5s;
-}
-.about h1{
-    padding-bottom: 35px;
-}
-.about p{
-    padding: 10px;
-}
-.about-col .col{
-    background-color: rgba(101, 63, 136, 0.63);
-    padding: 20px 50px;
-    border-radius: 5px;
-}
-.about-col .col p{
-    padding-bottom: 20px;
-}
-.about-col .col a{
-text-decoration: none;
-color: antiquewhite;
-background: transparent;
-border: 1px double antiquewhite;
-padding: 5px 8px;
-border-radius: 6px;
-}
-.about-col .col a:hover{
-    transition: 0.5s;
-background-color:rgb(47, 29, 63) ;    
-}
 h1{
     font-size: 36px;
     font-weight: 600;
@@ -175,4 +132,47 @@ h3{
 }
 .portfolio-col:hover{
     box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.2);
+}
+.about{
+    background-color:rgb(73, 50, 94); 
+    min-height: 82vh;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.about-col{
+    flex-basis: 31%;
+background:rgb(63, 39, 85);
+border-radius: 10px;
+padding: 20px 12px;
+margin: 0 20%;
+box-sizing: border-box;
+transition: 0.5s;
+}
+.about h1{
+    padding-bottom: 30px;
+}
+.about p{
+    padding: 10px;
+}
+.about-col .col{
+    background-color: rgba(101, 63, 136, 0.63);
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+.about-col .col p{
+    padding-bottom: 20px;
+}
+.about-col .col a{
+text-decoration: none;
+color: antiquewhite;
+background: transparent;
+border: 1px double antiquewhite;
+padding: 5px 8px;
+border-radius: 6px;
+}
+.about-col .col a:hover{
+    transition: 0.5s;
+background-color:rgb(47, 29, 63) ;    
 }
